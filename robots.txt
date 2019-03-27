@@ -1,0 +1,67 @@
+User-agent: Yandex
+# Allow: 
+# Закрываем страницы ошибок
+Disallow: /page-403.html
+Disallow: /page-404.html
+Disallow: /page-500.html
+# Закрываем страницу с письмом
+Disallow: /1_start_message.html
+# Закрываем страницу с договором
+Disallow: /assets/dogovor_N_LUDI_2017.pdf
+# Закрываем метки отслеживания для Яндекс
+Clean-param: utm_source&utm_medium&utm_term&utm_content&utm_campaign&yclid&gclid&_openstat&from /
+# Закрываем служебные страницы
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+# задает минимальный период времени в секундах для последовательного скачивания двух файлов с сервера
+Crawl-delay: 0.5
+# Приоритетный домен
+Host: http://bulatdesign.ru/
+
+User-agent: Googlebot
+# Allow: 
+# Закрываем страницы ошибок
+Disallow: /page-403.html
+Disallow: /page-404.html
+Disallow: /page-500.html
+# Закрываем страницу с письмом
+Disallow: /1_start_message.html
+# Закрываем страницу с договором
+Disallow: /assets/dogovor_N_LUDI_2017.pdf
+# Закрываем служебные страницы
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+
+User-agent: *
+# Allow: 
+# Закрываем страницы ошибок
+Disallow: /page-403.html
+Disallow: /page-404.html
+Disallow: /page-500.html
+# Закрываем страницу с письмом
+Disallow: /1_start_message.html
+# Закрываем страницу с договором
+Disallow: /assets/dogovor_N_LUDI_2017.pdf
+# Закрываем служебные страницы
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /cgi-bin
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+# Адрес sitemap
+Sitemap: http://bulatdesign.ru/sitemap.xml
