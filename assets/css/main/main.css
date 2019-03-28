@@ -2220,6 +2220,7 @@ table th.bg-pasific {
             border-radius: 3px;
 }
 /* navbar one-page */
+
 @media (max-width: 1200px) {
     .navbar-pasific.navbar-op {
         background-color: #fff;
@@ -2305,7 +2306,7 @@ table th.bg-pasific {
 }
 
 /* navbar multipage */
-@media(min-width:766px) {
+@media(min-width: 766px) {
     .navbar-mp .dropdown:hover > .dropdown-menu {
         display: block;
     }
@@ -2324,6 +2325,7 @@ table th.bg-pasific {
     .navbar-mp .navbar-nav > li > a:hover {
         color: rgba(255,255,255,1) !important;
     }
+  
 }
 @media (max-width: 766px) {
     .navbar-mp {
@@ -2803,8 +2805,8 @@ canvas {
     color: #fff;
     background-color: rgba(255,255,255,.3)
     -webkit-border-radius: 2px;
-       -moz-border-radius: 2px;
-            border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
 }
 .team-four .team-social a:hover {
     opacity: .6;
