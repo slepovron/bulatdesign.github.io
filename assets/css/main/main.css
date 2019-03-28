@@ -336,6 +336,12 @@ ul.no-icon-list li {
     margin: 0;
     list-style: none;
 }
+
+.container-full {
+  margin: 0 auto;
+  width: 100% !important;
+}
+
 /*  ----------------------------------------------------
 4. HEADING STYLE
 -------------------------------------------------------- */
@@ -1960,6 +1966,7 @@ table th.bg-pasific {
 }
 .carousel {
     margin-bottom: 60px;
+    width: 100%;
 }
 .carousel-control {
     z-index: 0;
