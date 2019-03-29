@@ -37,6 +37,7 @@ Envato Profile: http://themeforest.net/user/myboodesign
 29. SOCIAL MEDIA
 30. FOOTER
 31. PARALLAX
+32. VIDEO YOUTUBE
 
 /*  ----------------------------------------------------
 1. IMPORT GOOGLE FONTS
@@ -4505,4 +4506,22 @@ ul.pagination.pagination-pasific li.active a {
     min-height: 600px;
     max-width: 1920px;
     background: transparent;
+}
+
+/*  ----------------------------------------------------
+32. VIDEO YOUTUBE
+-------------------------------------------------------- */
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+  .thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
