@@ -3044,7 +3044,10 @@ canvas {
     #portfolioMasonry .portfolio-masonry-one-item.width2 { width: 300px; }
     #portfolioMasonry .portfolio-masonry-one-item.width3 { width: 300px; }
     #portfolioMasonry .portfolio-masonry-one-item.height2 { height: 276px; }
-    #page-top body { width: 100%; }
+    #page-top body {
+        display: flex; 
+        width: 100% !important;     
+    }
 }
 
 #portfolioMasonry .portfolio-masonry-one-item .portfolio-mask,
