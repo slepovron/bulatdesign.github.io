@@ -2627,7 +2627,14 @@ table th.bg-pasific {
         -o-background-size: cover;
         height: 100%;
         background-size: cover;
-    }    
+    }   
+    .intro .intro-body .brand-heading {
+        font-size: 150%;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 100%;
+    } 
 }
 /* Particles */
 canvas {
@@ -3050,8 +3057,7 @@ canvas {
     #portfolioMasonry .portfolio-masonry-one-item.width3 { width: 300px; }
     #portfolioMasonry .portfolio-masonry-one-item.height2 { height: 276px; }
     #page-top body { 
-        width: 100vw !important;
-        overflow: hidden;    
+        width: 100% !important;      
     }
 }
 
@@ -4521,17 +4527,25 @@ ul.pagination.pagination-pasific li.active a {
 /*  ----------------------------------------------------
 32. VIDEO YOUTUBE
 -------------------------------------------------------- */
+#videoFrame {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+
 .thumb-wrap {
     position: relative;
     padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    
 }
-  .thumb-wrap iframe {
+.thumb-wrap iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+   
 }
