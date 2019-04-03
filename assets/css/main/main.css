@@ -978,9 +978,15 @@ ul.no-icon-list li {
 /*  ----------------------------------------------------
 9. CONTENT BOX
 -------------------------------------------------------- */
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .content-box {
     display: block;
     float: left;
+    min-width: 200px;
 }
 .content-box-o {
     border: 1px solid #ddd;
